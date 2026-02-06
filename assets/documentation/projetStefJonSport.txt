@@ -1,0 +1,26 @@
+Projet Jon - Stefania
+
+Theme:
+Salle de Sport
+
+Example: https://www.thegymgroup.com/
+
+Slogan: Build your gold
+
+header/navbar
+4 pages
+carousel
+cartes
+footer
+
+
+Presentation:
+
+Name of site
+
+typography
+
+
+pallette
+background: #8B2426
+
