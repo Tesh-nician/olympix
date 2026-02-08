@@ -1,18 +1,13 @@
 
-.chocolate{
+/*.chocolate{
 
-<<<<<<< HEAD
-    background-color: chocolate; 
-    color: blanchedalmond;
-
-}
-=======
     /* background-color: chocolate;  */
     /* background-color: #d2691e; */
     /* color: blanchedalmond;
      border: 2px solid chocolate; */
 
-}
+/*}*/
+
 /* Contenitore esterno con colore più scuro */
 .nav-wrapper {
     background-color:chocolate; /* marrone/beige scuro */
@@ -47,7 +42,6 @@
 .logoO{
     width: 15vh;
 }
->>>>>>> jonathan
 
 
 .carrousel-image{
@@ -81,10 +75,6 @@
 }
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> jonathan
 .comment-container{
     display: flex;
     justify-content: center;
@@ -96,26 +86,60 @@
 footer{
     display: flex;
     justify-content: center;    
-    margin-top: 50px;
+    margin-top: 1%;
+    margin-bottom: 1%
    
     }
 
+ .footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2%;
+    
+ }   
+
 .footer-container-left{
     display: flex;
+    flex:3;
     flex-direction: row;
     justify-content: space-around;
     gap: 5%;
 }
 
+.footer-container-right{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    color: blanchedalmond; 
+    margin-left: 1%; 
+    background-color: chocolate; 
+    border-radius: 20px; 
+    width:100%"
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    width:100%;
+    height:100%;
+    background-image: url(/assets/images/logoO.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+}
+
+.footer-right-copyright{
+    font-size: x-small;
+    color: black;
+    text-align: center;
+}
+
 /* Carousel controls styling */
 .carousel-control-prev,
 .carousel-control-next {
-<<<<<<< HEAD
-    z-index: 1;
-=======
     /* z-index: 1; */
     z-index: 2;
->>>>>>> jonathan
     width: 5%;
 }
 
@@ -126,9 +150,6 @@ footer{
     width: 50px;
     height: 50px;
 }
-<<<<<<< HEAD
-
-=======
     /* =============== Testimonials slider (simple keyframes) =============== */
  .grid{
     margin-top: 5vh;
@@ -157,7 +178,6 @@ footer{
 
 
     
->>>>>>> jonathan
 /* .card-button-colors{
     background-color: chocolate;
     color: white;
