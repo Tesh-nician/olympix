@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/Tesh-nician/olympix.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "stefania"]
+	remote = origin
+	merge = refs/heads/stefania
+	vscode-merge-base = origin/stefania
