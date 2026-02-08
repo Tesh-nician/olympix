@@ -1,6 +1,12 @@
 
 .chocolate{
 
+<<<<<<< HEAD
+    background-color: chocolate; 
+    color: blanchedalmond;
+
+}
+=======
     /* background-color: chocolate;  */
     /* background-color: #d2691e; */
     /* color: blanchedalmond;
@@ -41,6 +47,7 @@
 .logoO{
     width: 15vh;
 }
+>>>>>>> jonathan
 
 
 .carrousel-image{
@@ -74,7 +81,10 @@
 }
 
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> jonathan
 .comment-container{
     display: flex;
     justify-content: center;
@@ -100,8 +110,12 @@ footer{
 /* Carousel controls styling */
 .carousel-control-prev,
 .carousel-control-next {
+<<<<<<< HEAD
+    z-index: 1;
+=======
     /* z-index: 1; */
     z-index: 2;
+>>>>>>> jonathan
     width: 5%;
 }
 
@@ -112,6 +126,9 @@ footer{
     width: 50px;
     height: 50px;
 }
+<<<<<<< HEAD
+
+=======
     /* =============== Testimonials slider (simple keyframes) =============== */
  .grid{
     margin-top: 5vh;
@@ -140,6 +157,7 @@ footer{
 
 
     
+>>>>>>> jonathan
 /* .card-button-colors{
     background-color: chocolate;
     color: white;
