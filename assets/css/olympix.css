@@ -111,6 +111,8 @@ footer{
     display: flex;
     flex:1;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: blanchedalmond; 
     margin-left: 1%; 
     background-color: chocolate; 
@@ -120,14 +122,28 @@ footer{
 
 .footer-logo{
     display: flex;
-    align-items: center;
-    width:100%;
-    height:100%;
+  
+    width:80%;
+    height:80%;
     background-image: url(/assets/images/logoO.png);
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 10%;
 }
+
+.footer-logo:hover{
+    display: flex;
+   
+    width:120%;
+    height:120%;
+    background-image: url(/assets/images/logoO.png);
+     background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+}
+
 
 .footer-right-copyright{
     font-size: x-small;
