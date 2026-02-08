@@ -90,6 +90,13 @@ footer{
    
     }
 
+.footer-container-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5%;
+}
+
 /* Carousel controls styling */
 .carousel-control-prev,
 .carousel-control-next {
