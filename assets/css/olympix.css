@@ -1,0 +1,140 @@
+
+.chocolate{
+
+    /* background-color: chocolate;  */
+    /* background-color: #d2691e; */
+    /* color: blanchedalmond;
+     border: 2px solid chocolate; */
+
+}
+/* Contenitore esterno con colore più scuro */
+.nav-wrapper {
+    background-color:chocolate; /* marrone/beige scuro */
+    padding: 15px 0; /* spessore della cornice sopra/sotto */
+}
+
+/* Navbar interna con colore chiaro */
+.navbar {
+    background-color: #f5e6d3; /* beige chiaro come nella foto */
+    max-width: 1200px; /* larghezza massima */
+    margin: 0 auto; /* centrato */
+    /* padding: 20px 40px; */
+    border-radius: 10px; /* angoli arrotondati opzionali */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-menu-list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #5a4a3a;
+    font-weight: 500;
+}
+.logoO{
+    width: 15vh;
+}
+
+
+.carrousel-image{
+    margin-left: 30%;    
+    width:40%;
+    border-radius: 20px
+}
+
+.card-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 5%;    
+    width:90%;
+
+}
+
+.centrer-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.grid-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.comment-container{
+    display: flex;
+    justify-content: center;
+    
+    margin-right: 50%;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;    
+    margin-top: 50px;
+   
+    }
+
+/* Carousel controls styling */
+.carousel-control-prev,
+.carousel-control-next {
+    /* z-index: 1; */
+    z-index: 2;
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+    /* =============== Testimonials slider (simple keyframes) =============== */
+ .grid{
+    margin-top: 5vh;
+ }
+    .container{
+      width:min(1200px, 92%);
+      margin-inline:auto;
+      padding-block:1.5rem;
+    }
+
+.slider{position:relative;overflow:hidden;border-radius:12px}
+.slides{display:flex;width:300%;animation:slideX 18s linear infinite}
+.slide{width:100%;flex:0 0 100%;padding:1.25rem;background:linear-gradient(180deg,#fff,#f8fafc)}
+
+ @keyframes slideX{
+      0%{transform:translateX(0)}
+      33.333%{transform:translateX(0)}
+      44.444%{transform:translateX(-100%)}
+      77.777%{transform:translateX(-100%)}
+      88.888%{transform:translateX(-200%)}
+      100%{transform:translateX(-200%)}
+    }
+
+
+
+
+
+    
+/* .card-button-colors{
+    background-color: chocolate;
+    color: white;
+    border: 4px solid darkorange;
+} */
