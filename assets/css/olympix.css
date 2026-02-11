@@ -1,12 +1,13 @@
 
-.chocolate{
+/*.chocolate{
 
     /* background-color: chocolate;  */
     /* background-color: #d2691e; */
     /* color: blanchedalmond;
      border: 2px solid chocolate; */
 
-}
+/*}*/
+
 /* Contenitore esterno con colore più scuro */
 .nav-wrapper {
 
@@ -60,6 +61,29 @@
 
 }
 
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+
+    margin-left: 20%;
+    width: 60%; 
+}
+
+.text-container :hover{
+    color: chocolate
+}
+
+
+.salle-text-li{
+    gap:5%;
+    
+
+
+}
+
 .centrer-button{
     display: flex;
     justify-content: center;
@@ -76,7 +100,6 @@
 }
 
 
-
 .comment-container{
     display: flex;
     justify-content: center;
@@ -84,6 +107,74 @@
     margin-right: 50%;
 }
 
+
+footer{
+    display: flex;
+    justify-content: center;    
+    margin-top: 1%;
+    margin-bottom: 1%
+   
+    }
+
+ .footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2%;
+    
+ }   
+
+.footer-container-left{
+    display: flex;
+    flex:3;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5%;
+}
+
+.footer-container-right{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond; 
+    margin-left: 1%; 
+    background-color: chocolate; 
+    border-radius: 20px; 
+    width:100%"
+}
+
+.footer-logo{
+    display: flex;
+  
+    width:80%;
+    height:80%;
+    background-image: url(/assets/images/logoO.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+}
+
+.footer-logo:hover{
+    display: flex;
+   
+    width:120%;
+    height:120%;
+    background-image: url(/assets/images/logoO.png);
+     background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+}
+
+
+.footer-right-copyright{
+    font-size: x-small;
+    color: black;
+    text-align: center;
+}
 
 /* Carousel controls styling */
 .carousel-control-prev .carousel-control-next  {
